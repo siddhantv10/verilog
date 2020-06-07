@@ -1,0 +1,7 @@
+module sp_ram_sync_rw(addr, data, clk, rd, wr, cs);
+
+input [9:0] addr; 
+input 		clk;
+input 		rd;
+input 		wr;
+input 		cs;		//chip-select

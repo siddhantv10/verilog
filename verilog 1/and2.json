@@ -1,0 +1,3169 @@
+{
+  "creator": "Yosys 0.7 (git sha1 61f6811, gcc 6.2.0-11ubuntu1 -O2 -fdebug-prefix-map=/build/yosys-OIL3SR/yosys-0.7=. -fstack-protector-strong -fPIC -Os)",
+  "modules": {
+    "ICESTORM_LC": {
+      "attributes": {
+        "blackbox": 1,
+        "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:668"
+      },
+      "ports": {
+        "I0": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "I1": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "I2": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "I3": {
+          "direction": "input",
+          "bits": [ 5 ]
+        },
+        "CIN": {
+          "direction": "input",
+          "bits": [ 6 ]
+        },
+        "CLK": {
+          "direction": "input",
+          "bits": [ 7 ]
+        },
+        "CEN": {
+          "direction": "input",
+          "bits": [ 8 ]
+        },
+        "SR": {
+          "direction": "input",
+          "bits": [ 9 ]
+        },
+        "LO": {
+          "direction": "output",
+          "bits": [ 10 ]
+        },
+        "O": {
+          "direction": "output",
+          "bits": [ 11 ]
+        },
+        "COUT": {
+          "direction": "output",
+          "bits": [ 12 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "CEN": {
+          "hide_name": 0,
+          "bits": [ 8 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:669"
+          }
+        },
+        "CIN": {
+          "hide_name": 0,
+          "bits": [ 6 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:669"
+          }
+        },
+        "CLK": {
+          "hide_name": 0,
+          "bits": [ 7 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:669"
+          }
+        },
+        "COUT": {
+          "hide_name": 0,
+          "bits": [ 12 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:670"
+          }
+        },
+        "I0": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:669"
+          }
+        },
+        "I1": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:669"
+          }
+        },
+        "I2": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:669"
+          }
+        },
+        "I3": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:669"
+          }
+        },
+        "LO": {
+          "hide_name": 0,
+          "bits": [ 10 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:670"
+          }
+        },
+        "O": {
+          "hide_name": 0,
+          "bits": [ 11 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:670"
+          }
+        },
+        "SR": {
+          "hide_name": 0,
+          "bits": [ 9 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:669"
+          }
+        }
+      }
+    },
+    "SB_CARRY": {
+      "attributes": {
+        "blackbox": 1,
+        "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:129"
+      },
+      "ports": {
+        "CO": {
+          "direction": "output",
+          "bits": [ 2 ]
+        },
+        "I0": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "I1": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "CI": {
+          "direction": "input",
+          "bits": [ 5 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "CI": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:129"
+          }
+        },
+        "CO": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:129"
+          }
+        },
+        "I0": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:129"
+          }
+        },
+        "I1": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:129"
+          }
+        }
+      }
+    },
+    "SB_DFF": {
+      "attributes": {
+        "blackbox": 1,
+        "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:135"
+      },
+      "ports": {
+        "Q": {
+          "direction": "output",
+          "bits": [ 2 ]
+        },
+        "C": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "D": {
+          "direction": "input",
+          "bits": [ 4 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "C": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:135"
+          }
+        },
+        "D": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:135"
+          }
+        },
+        "Q": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:135"
+          }
+        }
+      }
+    },
+    "SB_DFFE": {
+      "attributes": {
+        "blackbox": 1,
+        "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:141"
+      },
+      "ports": {
+        "Q": {
+          "direction": "output",
+          "bits": [ 2 ]
+        },
+        "C": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "E": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "D": {
+          "direction": "input",
+          "bits": [ 5 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "C": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:141"
+          }
+        },
+        "D": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:141"
+          }
+        },
+        "E": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:141"
+          }
+        },
+        "Q": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:141"
+          }
+        }
+      }
+    },
+    "SB_DFFER": {
+      "attributes": {
+        "blackbox": 1,
+        "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:195"
+      },
+      "ports": {
+        "Q": {
+          "direction": "output",
+          "bits": [ 2 ]
+        },
+        "C": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "E": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "R": {
+          "direction": "input",
+          "bits": [ 5 ]
+        },
+        "D": {
+          "direction": "input",
+          "bits": [ 6 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "C": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:195"
+          }
+        },
+        "D": {
+          "hide_name": 0,
+          "bits": [ 6 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:195"
+          }
+        },
+        "E": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:195"
+          }
+        },
+        "Q": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:195"
+          }
+        },
+        "R": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:195"
+          }
+        }
+      }
+    },
+    "SB_DFFES": {
+      "attributes": {
+        "blackbox": 1,
+        "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:215"
+      },
+      "ports": {
+        "Q": {
+          "direction": "output",
+          "bits": [ 2 ]
+        },
+        "C": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "E": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "S": {
+          "direction": "input",
+          "bits": [ 5 ]
+        },
+        "D": {
+          "direction": "input",
+          "bits": [ 6 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "C": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:215"
+          }
+        },
+        "D": {
+          "hide_name": 0,
+          "bits": [ 6 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:215"
+          }
+        },
+        "E": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:215"
+          }
+        },
+        "Q": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:215"
+          }
+        },
+        "S": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:215"
+          }
+        }
+      }
+    },
+    "SB_DFFESR": {
+      "attributes": {
+        "blackbox": 1,
+        "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:184"
+      },
+      "ports": {
+        "Q": {
+          "direction": "output",
+          "bits": [ 2 ]
+        },
+        "C": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "E": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "R": {
+          "direction": "input",
+          "bits": [ 5 ]
+        },
+        "D": {
+          "direction": "input",
+          "bits": [ 6 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "C": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:184"
+          }
+        },
+        "D": {
+          "hide_name": 0,
+          "bits": [ 6 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:184"
+          }
+        },
+        "E": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:184"
+          }
+        },
+        "Q": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:184"
+          }
+        },
+        "R": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:184"
+          }
+        }
+      }
+    },
+    "SB_DFFESS": {
+      "attributes": {
+        "blackbox": 1,
+        "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:204"
+      },
+      "ports": {
+        "Q": {
+          "direction": "output",
+          "bits": [ 2 ]
+        },
+        "C": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "E": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "S": {
+          "direction": "input",
+          "bits": [ 5 ]
+        },
+        "D": {
+          "direction": "input",
+          "bits": [ 6 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "C": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:204"
+          }
+        },
+        "D": {
+          "hide_name": 0,
+          "bits": [ 6 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:204"
+          }
+        },
+        "E": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:204"
+          }
+        },
+        "Q": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:204"
+          }
+        },
+        "S": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:204"
+          }
+        }
+      }
+    },
+    "SB_DFFN": {
+      "attributes": {
+        "blackbox": 1,
+        "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:226"
+      },
+      "ports": {
+        "Q": {
+          "direction": "output",
+          "bits": [ 2 ]
+        },
+        "C": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "D": {
+          "direction": "input",
+          "bits": [ 4 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "C": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:226"
+          }
+        },
+        "D": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:226"
+          }
+        },
+        "Q": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:226"
+          }
+        }
+      }
+    },
+    "SB_DFFNE": {
+      "attributes": {
+        "blackbox": 1,
+        "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:232"
+      },
+      "ports": {
+        "Q": {
+          "direction": "output",
+          "bits": [ 2 ]
+        },
+        "C": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "E": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "D": {
+          "direction": "input",
+          "bits": [ 5 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "C": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:232"
+          }
+        },
+        "D": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:232"
+          }
+        },
+        "E": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:232"
+          }
+        },
+        "Q": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:232"
+          }
+        }
+      }
+    },
+    "SB_DFFNER": {
+      "attributes": {
+        "blackbox": 1,
+        "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:286"
+      },
+      "ports": {
+        "Q": {
+          "direction": "output",
+          "bits": [ 2 ]
+        },
+        "C": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "E": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "R": {
+          "direction": "input",
+          "bits": [ 5 ]
+        },
+        "D": {
+          "direction": "input",
+          "bits": [ 6 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "C": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:286"
+          }
+        },
+        "D": {
+          "hide_name": 0,
+          "bits": [ 6 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:286"
+          }
+        },
+        "E": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:286"
+          }
+        },
+        "Q": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:286"
+          }
+        },
+        "R": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:286"
+          }
+        }
+      }
+    },
+    "SB_DFFNES": {
+      "attributes": {
+        "blackbox": 1,
+        "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:306"
+      },
+      "ports": {
+        "Q": {
+          "direction": "output",
+          "bits": [ 2 ]
+        },
+        "C": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "E": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "S": {
+          "direction": "input",
+          "bits": [ 5 ]
+        },
+        "D": {
+          "direction": "input",
+          "bits": [ 6 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "C": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:306"
+          }
+        },
+        "D": {
+          "hide_name": 0,
+          "bits": [ 6 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:306"
+          }
+        },
+        "E": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:306"
+          }
+        },
+        "Q": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:306"
+          }
+        },
+        "S": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:306"
+          }
+        }
+      }
+    },
+    "SB_DFFNESR": {
+      "attributes": {
+        "blackbox": 1,
+        "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:275"
+      },
+      "ports": {
+        "Q": {
+          "direction": "output",
+          "bits": [ 2 ]
+        },
+        "C": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "E": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "R": {
+          "direction": "input",
+          "bits": [ 5 ]
+        },
+        "D": {
+          "direction": "input",
+          "bits": [ 6 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "C": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:275"
+          }
+        },
+        "D": {
+          "hide_name": 0,
+          "bits": [ 6 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:275"
+          }
+        },
+        "E": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:275"
+          }
+        },
+        "Q": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:275"
+          }
+        },
+        "R": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:275"
+          }
+        }
+      }
+    },
+    "SB_DFFNESS": {
+      "attributes": {
+        "blackbox": 1,
+        "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:295"
+      },
+      "ports": {
+        "Q": {
+          "direction": "output",
+          "bits": [ 2 ]
+        },
+        "C": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "E": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "S": {
+          "direction": "input",
+          "bits": [ 5 ]
+        },
+        "D": {
+          "direction": "input",
+          "bits": [ 6 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "C": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:295"
+          }
+        },
+        "D": {
+          "hide_name": 0,
+          "bits": [ 6 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:295"
+          }
+        },
+        "E": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:295"
+          }
+        },
+        "Q": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:295"
+          }
+        },
+        "S": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:295"
+          }
+        }
+      }
+    },
+    "SB_DFFNR": {
+      "attributes": {
+        "blackbox": 1,
+        "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:248"
+      },
+      "ports": {
+        "Q": {
+          "direction": "output",
+          "bits": [ 2 ]
+        },
+        "C": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "R": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "D": {
+          "direction": "input",
+          "bits": [ 5 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "C": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:248"
+          }
+        },
+        "D": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:248"
+          }
+        },
+        "Q": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:248"
+          }
+        },
+        "R": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:248"
+          }
+        }
+      }
+    },
+    "SB_DFFNS": {
+      "attributes": {
+        "blackbox": 1,
+        "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:266"
+      },
+      "ports": {
+        "Q": {
+          "direction": "output",
+          "bits": [ 2 ]
+        },
+        "C": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "S": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "D": {
+          "direction": "input",
+          "bits": [ 5 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "C": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:266"
+          }
+        },
+        "D": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:266"
+          }
+        },
+        "Q": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:266"
+          }
+        },
+        "S": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:266"
+          }
+        }
+      }
+    },
+    "SB_DFFNSR": {
+      "attributes": {
+        "blackbox": 1,
+        "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:239"
+      },
+      "ports": {
+        "Q": {
+          "direction": "output",
+          "bits": [ 2 ]
+        },
+        "C": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "R": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "D": {
+          "direction": "input",
+          "bits": [ 5 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "C": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:239"
+          }
+        },
+        "D": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:239"
+          }
+        },
+        "Q": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:239"
+          }
+        },
+        "R": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:239"
+          }
+        }
+      }
+    },
+    "SB_DFFNSS": {
+      "attributes": {
+        "blackbox": 1,
+        "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:257"
+      },
+      "ports": {
+        "Q": {
+          "direction": "output",
+          "bits": [ 2 ]
+        },
+        "C": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "S": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "D": {
+          "direction": "input",
+          "bits": [ 5 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "C": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:257"
+          }
+        },
+        "D": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:257"
+          }
+        },
+        "Q": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:257"
+          }
+        },
+        "S": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:257"
+          }
+        }
+      }
+    },
+    "SB_DFFR": {
+      "attributes": {
+        "blackbox": 1,
+        "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:157"
+      },
+      "ports": {
+        "Q": {
+          "direction": "output",
+          "bits": [ 2 ]
+        },
+        "C": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "R": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "D": {
+          "direction": "input",
+          "bits": [ 5 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "C": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:157"
+          }
+        },
+        "D": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:157"
+          }
+        },
+        "Q": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:157"
+          }
+        },
+        "R": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:157"
+          }
+        }
+      }
+    },
+    "SB_DFFS": {
+      "attributes": {
+        "blackbox": 1,
+        "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:175"
+      },
+      "ports": {
+        "Q": {
+          "direction": "output",
+          "bits": [ 2 ]
+        },
+        "C": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "S": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "D": {
+          "direction": "input",
+          "bits": [ 5 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "C": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:175"
+          }
+        },
+        "D": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:175"
+          }
+        },
+        "Q": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:175"
+          }
+        },
+        "S": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:175"
+          }
+        }
+      }
+    },
+    "SB_DFFSR": {
+      "attributes": {
+        "blackbox": 1,
+        "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:148"
+      },
+      "ports": {
+        "Q": {
+          "direction": "output",
+          "bits": [ 2 ]
+        },
+        "C": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "R": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "D": {
+          "direction": "input",
+          "bits": [ 5 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "C": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:148"
+          }
+        },
+        "D": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:148"
+          }
+        },
+        "Q": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:148"
+          }
+        },
+        "R": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:148"
+          }
+        }
+      }
+    },
+    "SB_DFFSS": {
+      "attributes": {
+        "blackbox": 1,
+        "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:166"
+      },
+      "ports": {
+        "Q": {
+          "direction": "output",
+          "bits": [ 2 ]
+        },
+        "C": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "S": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "D": {
+          "direction": "input",
+          "bits": [ 5 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "C": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:166"
+          }
+        },
+        "D": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:166"
+          }
+        },
+        "Q": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:166"
+          }
+        },
+        "S": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:166"
+          }
+        }
+      }
+    },
+    "SB_GB": {
+      "attributes": {
+        "blackbox": 1,
+        "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:112"
+      },
+      "ports": {
+        "USER_SIGNAL_TO_GLOBAL_BUFFER": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "GLOBAL_BUFFER_OUTPUT": {
+          "direction": "output",
+          "bits": [ 3 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "GLOBAL_BUFFER_OUTPUT": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:114"
+          }
+        },
+        "USER_SIGNAL_TO_GLOBAL_BUFFER": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:113"
+          }
+        }
+      }
+    },
+    "SB_GB_IO": {
+      "attributes": {
+        "blackbox": 1,
+        "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:73"
+      },
+      "ports": {
+        "PACKAGE_PIN": {
+          "direction": "inout",
+          "bits": [ 2 ]
+        },
+        "GLOBAL_BUFFER_OUTPUT": {
+          "direction": "output",
+          "bits": [ 3 ]
+        },
+        "LATCH_INPUT_VALUE": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "CLOCK_ENABLE": {
+          "direction": "input",
+          "bits": [ 5 ]
+        },
+        "INPUT_CLK": {
+          "direction": "input",
+          "bits": [ 6 ]
+        },
+        "OUTPUT_CLK": {
+          "direction": "input",
+          "bits": [ 7 ]
+        },
+        "OUTPUT_ENABLE": {
+          "direction": "input",
+          "bits": [ 8 ]
+        },
+        "D_OUT_0": {
+          "direction": "input",
+          "bits": [ 9 ]
+        },
+        "D_OUT_1": {
+          "direction": "input",
+          "bits": [ 10 ]
+        },
+        "D_IN_0": {
+          "direction": "output",
+          "bits": [ 11 ]
+        },
+        "D_IN_1": {
+          "direction": "output",
+          "bits": [ 12 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "CLOCK_ENABLE": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:77"
+          }
+        },
+        "D_IN_0": {
+          "hide_name": 0,
+          "bits": [ 11 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:83"
+          }
+        },
+        "D_IN_1": {
+          "hide_name": 0,
+          "bits": [ 12 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:84"
+          }
+        },
+        "D_OUT_0": {
+          "hide_name": 0,
+          "bits": [ 9 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:81"
+          }
+        },
+        "D_OUT_1": {
+          "hide_name": 0,
+          "bits": [ 10 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:82"
+          }
+        },
+        "GLOBAL_BUFFER_OUTPUT": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:75"
+          }
+        },
+        "INPUT_CLK": {
+          "hide_name": 0,
+          "bits": [ 6 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:78"
+          }
+        },
+        "LATCH_INPUT_VALUE": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:76"
+          }
+        },
+        "OUTPUT_CLK": {
+          "hide_name": 0,
+          "bits": [ 7 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:79"
+          }
+        },
+        "OUTPUT_ENABLE": {
+          "hide_name": 0,
+          "bits": [ 8 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:80"
+          }
+        },
+        "PACKAGE_PIN": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:74"
+          }
+        }
+      }
+    },
+    "SB_IO": {
+      "attributes": {
+        "blackbox": 1,
+        "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:7"
+      },
+      "ports": {
+        "PACKAGE_PIN": {
+          "direction": "inout",
+          "bits": [ 2 ]
+        },
+        "LATCH_INPUT_VALUE": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "CLOCK_ENABLE": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "INPUT_CLK": {
+          "direction": "input",
+          "bits": [ 5 ]
+        },
+        "OUTPUT_CLK": {
+          "direction": "input",
+          "bits": [ 6 ]
+        },
+        "OUTPUT_ENABLE": {
+          "direction": "input",
+          "bits": [ 7 ]
+        },
+        "D_OUT_0": {
+          "direction": "input",
+          "bits": [ 8 ]
+        },
+        "D_OUT_1": {
+          "direction": "input",
+          "bits": [ 9 ]
+        },
+        "D_IN_0": {
+          "direction": "output",
+          "bits": [ 10 ]
+        },
+        "D_IN_1": {
+          "direction": "output",
+          "bits": [ 11 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "CLOCK_ENABLE": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:10"
+          }
+        },
+        "D_IN_0": {
+          "hide_name": 0,
+          "bits": [ 10 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:16"
+          }
+        },
+        "D_IN_1": {
+          "hide_name": 0,
+          "bits": [ 11 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:17"
+          }
+        },
+        "D_OUT_0": {
+          "hide_name": 0,
+          "bits": [ 8 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:14"
+          }
+        },
+        "D_OUT_1": {
+          "hide_name": 0,
+          "bits": [ 9 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:15"
+          }
+        },
+        "INPUT_CLK": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:11"
+          }
+        },
+        "LATCH_INPUT_VALUE": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:9"
+          }
+        },
+        "OUTPUT_CLK": {
+          "hide_name": 0,
+          "bits": [ 6 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:12"
+          }
+        },
+        "OUTPUT_ENABLE": {
+          "hide_name": 0,
+          "bits": [ 7 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:13"
+          }
+        },
+        "PACKAGE_PIN": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:8"
+          }
+        }
+      }
+    },
+    "SB_LUT4": {
+      "attributes": {
+        "blackbox": 1,
+        "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:121"
+      },
+      "ports": {
+        "O": {
+          "direction": "output",
+          "bits": [ 2 ]
+        },
+        "I0": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "I1": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "I2": {
+          "direction": "input",
+          "bits": [ 5 ]
+        },
+        "I3": {
+          "direction": "input",
+          "bits": [ 6 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "I0": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:121"
+          }
+        },
+        "I1": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:121"
+          }
+        },
+        "I2": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:121"
+          }
+        },
+        "I3": {
+          "hide_name": 0,
+          "bits": [ 6 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:121"
+          }
+        },
+        "O": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:121"
+          }
+        }
+      }
+    },
+    "SB_PLL40_2F_CORE": {
+      "attributes": {
+        "blackbox": 1,
+        "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:806"
+      },
+      "ports": {
+        "REFERENCECLK": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "PLLOUTCOREA": {
+          "direction": "output",
+          "bits": [ 3 ]
+        },
+        "PLLOUTGLOBALA": {
+          "direction": "output",
+          "bits": [ 4 ]
+        },
+        "PLLOUTCOREB": {
+          "direction": "output",
+          "bits": [ 5 ]
+        },
+        "PLLOUTGLOBALB": {
+          "direction": "output",
+          "bits": [ 6 ]
+        },
+        "EXTFEEDBACK": {
+          "direction": "input",
+          "bits": [ 7 ]
+        },
+        "DYNAMICDELAY": {
+          "direction": "input",
+          "bits": [ 8, 9, 10, 11, 12, 13, 14, 15 ]
+        },
+        "LOCK": {
+          "direction": "output",
+          "bits": [ 16 ]
+        },
+        "BYPASS": {
+          "direction": "input",
+          "bits": [ 17 ]
+        },
+        "RESETB": {
+          "direction": "input",
+          "bits": [ 18 ]
+        },
+        "LATCHINPUTVALUE": {
+          "direction": "input",
+          "bits": [ 19 ]
+        },
+        "SDO": {
+          "direction": "output",
+          "bits": [ 20 ]
+        },
+        "SDI": {
+          "direction": "input",
+          "bits": [ 21 ]
+        },
+        "SCLK": {
+          "direction": "input",
+          "bits": [ 22 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "BYPASS": {
+          "hide_name": 0,
+          "bits": [ 17 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:815"
+          }
+        },
+        "DYNAMICDELAY": {
+          "hide_name": 0,
+          "bits": [ 8, 9, 10, 11, 12, 13, 14, 15 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:813"
+          }
+        },
+        "EXTFEEDBACK": {
+          "hide_name": 0,
+          "bits": [ 7 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:812"
+          }
+        },
+        "LATCHINPUTVALUE": {
+          "hide_name": 0,
+          "bits": [ 19 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:817"
+          }
+        },
+        "LOCK": {
+          "hide_name": 0,
+          "bits": [ 16 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:814"
+          }
+        },
+        "PLLOUTCOREA": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:808"
+          }
+        },
+        "PLLOUTCOREB": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:810"
+          }
+        },
+        "PLLOUTGLOBALA": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:809"
+          }
+        },
+        "PLLOUTGLOBALB": {
+          "hide_name": 0,
+          "bits": [ 6 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:811"
+          }
+        },
+        "REFERENCECLK": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:807"
+          }
+        },
+        "RESETB": {
+          "hide_name": 0,
+          "bits": [ 18 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:816"
+          }
+        },
+        "SCLK": {
+          "hide_name": 0,
+          "bits": [ 22 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:820"
+          }
+        },
+        "SDI": {
+          "hide_name": 0,
+          "bits": [ 21 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:819"
+          }
+        },
+        "SDO": {
+          "hide_name": 0,
+          "bits": [ 20 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:818"
+          }
+        }
+      }
+    },
+    "SB_PLL40_2F_PAD": {
+      "attributes": {
+        "blackbox": 1,
+        "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:841"
+      },
+      "ports": {
+        "PACKAGEPIN": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "PLLOUTCOREA": {
+          "direction": "output",
+          "bits": [ 3 ]
+        },
+        "PLLOUTGLOBALA": {
+          "direction": "output",
+          "bits": [ 4 ]
+        },
+        "PLLOUTCOREB": {
+          "direction": "output",
+          "bits": [ 5 ]
+        },
+        "PLLOUTGLOBALB": {
+          "direction": "output",
+          "bits": [ 6 ]
+        },
+        "EXTFEEDBACK": {
+          "direction": "input",
+          "bits": [ 7 ]
+        },
+        "DYNAMICDELAY": {
+          "direction": "input",
+          "bits": [ 8, 9, 10, 11, 12, 13, 14, 15 ]
+        },
+        "LOCK": {
+          "direction": "output",
+          "bits": [ 16 ]
+        },
+        "BYPASS": {
+          "direction": "input",
+          "bits": [ 17 ]
+        },
+        "RESETB": {
+          "direction": "input",
+          "bits": [ 18 ]
+        },
+        "LATCHINPUTVALUE": {
+          "direction": "input",
+          "bits": [ 19 ]
+        },
+        "SDO": {
+          "direction": "output",
+          "bits": [ 20 ]
+        },
+        "SDI": {
+          "direction": "input",
+          "bits": [ 21 ]
+        },
+        "SCLK": {
+          "direction": "input",
+          "bits": [ 22 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "BYPASS": {
+          "hide_name": 0,
+          "bits": [ 17 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:850"
+          }
+        },
+        "DYNAMICDELAY": {
+          "hide_name": 0,
+          "bits": [ 8, 9, 10, 11, 12, 13, 14, 15 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:848"
+          }
+        },
+        "EXTFEEDBACK": {
+          "hide_name": 0,
+          "bits": [ 7 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:847"
+          }
+        },
+        "LATCHINPUTVALUE": {
+          "hide_name": 0,
+          "bits": [ 19 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:852"
+          }
+        },
+        "LOCK": {
+          "hide_name": 0,
+          "bits": [ 16 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:849"
+          }
+        },
+        "PACKAGEPIN": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:842"
+          }
+        },
+        "PLLOUTCOREA": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:843"
+          }
+        },
+        "PLLOUTCOREB": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:845"
+          }
+        },
+        "PLLOUTGLOBALA": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:844"
+          }
+        },
+        "PLLOUTGLOBALB": {
+          "hide_name": 0,
+          "bits": [ 6 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:846"
+          }
+        },
+        "RESETB": {
+          "hide_name": 0,
+          "bits": [ 18 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:851"
+          }
+        },
+        "SCLK": {
+          "hide_name": 0,
+          "bits": [ 22 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:855"
+          }
+        },
+        "SDI": {
+          "hide_name": 0,
+          "bits": [ 21 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:854"
+          }
+        },
+        "SDO": {
+          "hide_name": 0,
+          "bits": [ 20 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:853"
+          }
+        }
+      }
+    },
+    "SB_PLL40_2_PAD": {
+      "attributes": {
+        "blackbox": 1,
+        "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:772"
+      },
+      "ports": {
+        "PACKAGEPIN": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "PLLOUTCOREA": {
+          "direction": "output",
+          "bits": [ 3 ]
+        },
+        "PLLOUTGLOBALA": {
+          "direction": "output",
+          "bits": [ 4 ]
+        },
+        "PLLOUTCOREB": {
+          "direction": "output",
+          "bits": [ 5 ]
+        },
+        "PLLOUTGLOBALB": {
+          "direction": "output",
+          "bits": [ 6 ]
+        },
+        "EXTFEEDBACK": {
+          "direction": "input",
+          "bits": [ 7 ]
+        },
+        "DYNAMICDELAY": {
+          "direction": "input",
+          "bits": [ 8, 9, 10, 11, 12, 13, 14, 15 ]
+        },
+        "LOCK": {
+          "direction": "output",
+          "bits": [ 16 ]
+        },
+        "BYPASS": {
+          "direction": "input",
+          "bits": [ 17 ]
+        },
+        "RESETB": {
+          "direction": "input",
+          "bits": [ 18 ]
+        },
+        "LATCHINPUTVALUE": {
+          "direction": "input",
+          "bits": [ 19 ]
+        },
+        "SDO": {
+          "direction": "output",
+          "bits": [ 20 ]
+        },
+        "SDI": {
+          "direction": "input",
+          "bits": [ 21 ]
+        },
+        "SCLK": {
+          "direction": "input",
+          "bits": [ 22 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "BYPASS": {
+          "hide_name": 0,
+          "bits": [ 17 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:781"
+          }
+        },
+        "DYNAMICDELAY": {
+          "hide_name": 0,
+          "bits": [ 8, 9, 10, 11, 12, 13, 14, 15 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:779"
+          }
+        },
+        "EXTFEEDBACK": {
+          "hide_name": 0,
+          "bits": [ 7 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:778"
+          }
+        },
+        "LATCHINPUTVALUE": {
+          "hide_name": 0,
+          "bits": [ 19 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:783"
+          }
+        },
+        "LOCK": {
+          "hide_name": 0,
+          "bits": [ 16 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:780"
+          }
+        },
+        "PACKAGEPIN": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:773"
+          }
+        },
+        "PLLOUTCOREA": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:774"
+          }
+        },
+        "PLLOUTCOREB": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:776"
+          }
+        },
+        "PLLOUTGLOBALA": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:775"
+          }
+        },
+        "PLLOUTGLOBALB": {
+          "hide_name": 0,
+          "bits": [ 6 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:777"
+          }
+        },
+        "RESETB": {
+          "hide_name": 0,
+          "bits": [ 18 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:782"
+          }
+        },
+        "SCLK": {
+          "hide_name": 0,
+          "bits": [ 22 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:786"
+          }
+        },
+        "SDI": {
+          "hide_name": 0,
+          "bits": [ 21 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:785"
+          }
+        },
+        "SDO": {
+          "hide_name": 0,
+          "bits": [ 20 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:784"
+          }
+        }
+      }
+    },
+    "SB_PLL40_CORE": {
+      "attributes": {
+        "blackbox": 1,
+        "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:710"
+      },
+      "ports": {
+        "REFERENCECLK": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "PLLOUTCORE": {
+          "direction": "output",
+          "bits": [ 3 ]
+        },
+        "PLLOUTGLOBAL": {
+          "direction": "output",
+          "bits": [ 4 ]
+        },
+        "EXTFEEDBACK": {
+          "direction": "input",
+          "bits": [ 5 ]
+        },
+        "DYNAMICDELAY": {
+          "direction": "input",
+          "bits": [ 6, 7, 8, 9, 10, 11, 12, 13 ]
+        },
+        "LOCK": {
+          "direction": "output",
+          "bits": [ 14 ]
+        },
+        "BYPASS": {
+          "direction": "input",
+          "bits": [ 15 ]
+        },
+        "RESETB": {
+          "direction": "input",
+          "bits": [ 16 ]
+        },
+        "LATCHINPUTVALUE": {
+          "direction": "input",
+          "bits": [ 17 ]
+        },
+        "SDO": {
+          "direction": "output",
+          "bits": [ 18 ]
+        },
+        "SDI": {
+          "direction": "input",
+          "bits": [ 19 ]
+        },
+        "SCLK": {
+          "direction": "input",
+          "bits": [ 20 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "BYPASS": {
+          "hide_name": 0,
+          "bits": [ 15 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:717"
+          }
+        },
+        "DYNAMICDELAY": {
+          "hide_name": 0,
+          "bits": [ 6, 7, 8, 9, 10, 11, 12, 13 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:715"
+          }
+        },
+        "EXTFEEDBACK": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:714"
+          }
+        },
+        "LATCHINPUTVALUE": {
+          "hide_name": 0,
+          "bits": [ 17 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:719"
+          }
+        },
+        "LOCK": {
+          "hide_name": 0,
+          "bits": [ 14 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:716"
+          }
+        },
+        "PLLOUTCORE": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:712"
+          }
+        },
+        "PLLOUTGLOBAL": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:713"
+          }
+        },
+        "REFERENCECLK": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:711"
+          }
+        },
+        "RESETB": {
+          "hide_name": 0,
+          "bits": [ 16 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:718"
+          }
+        },
+        "SCLK": {
+          "hide_name": 0,
+          "bits": [ 20 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:722"
+          }
+        },
+        "SDI": {
+          "hide_name": 0,
+          "bits": [ 19 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:721"
+          }
+        },
+        "SDO": {
+          "hide_name": 0,
+          "bits": [ 18 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:720"
+          }
+        }
+      }
+    },
+    "SB_PLL40_PAD": {
+      "attributes": {
+        "blackbox": 1,
+        "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:741"
+      },
+      "ports": {
+        "PACKAGEPIN": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "PLLOUTCORE": {
+          "direction": "output",
+          "bits": [ 3 ]
+        },
+        "PLLOUTGLOBAL": {
+          "direction": "output",
+          "bits": [ 4 ]
+        },
+        "EXTFEEDBACK": {
+          "direction": "input",
+          "bits": [ 5 ]
+        },
+        "DYNAMICDELAY": {
+          "direction": "input",
+          "bits": [ 6, 7, 8, 9, 10, 11, 12, 13 ]
+        },
+        "LOCK": {
+          "direction": "output",
+          "bits": [ 14 ]
+        },
+        "BYPASS": {
+          "direction": "input",
+          "bits": [ 15 ]
+        },
+        "RESETB": {
+          "direction": "input",
+          "bits": [ 16 ]
+        },
+        "LATCHINPUTVALUE": {
+          "direction": "input",
+          "bits": [ 17 ]
+        },
+        "SDO": {
+          "direction": "output",
+          "bits": [ 18 ]
+        },
+        "SDI": {
+          "direction": "input",
+          "bits": [ 19 ]
+        },
+        "SCLK": {
+          "direction": "input",
+          "bits": [ 20 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "BYPASS": {
+          "hide_name": 0,
+          "bits": [ 15 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:748"
+          }
+        },
+        "DYNAMICDELAY": {
+          "hide_name": 0,
+          "bits": [ 6, 7, 8, 9, 10, 11, 12, 13 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:746"
+          }
+        },
+        "EXTFEEDBACK": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:745"
+          }
+        },
+        "LATCHINPUTVALUE": {
+          "hide_name": 0,
+          "bits": [ 17 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:750"
+          }
+        },
+        "LOCK": {
+          "hide_name": 0,
+          "bits": [ 14 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:747"
+          }
+        },
+        "PACKAGEPIN": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:742"
+          }
+        },
+        "PLLOUTCORE": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:743"
+          }
+        },
+        "PLLOUTGLOBAL": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:744"
+          }
+        },
+        "RESETB": {
+          "hide_name": 0,
+          "bits": [ 16 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:749"
+          }
+        },
+        "SCLK": {
+          "hide_name": 0,
+          "bits": [ 20 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:753"
+          }
+        },
+        "SDI": {
+          "hide_name": 0,
+          "bits": [ 19 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:752"
+          }
+        },
+        "SDO": {
+          "hide_name": 0,
+          "bits": [ 18 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:751"
+          }
+        }
+      }
+    },
+    "SB_RAM40_4K": {
+      "attributes": {
+        "blackbox": 1,
+        "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:317"
+      },
+      "ports": {
+        "RDATA": {
+          "direction": "output",
+          "bits": [ 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17 ]
+        },
+        "RCLK": {
+          "direction": "input",
+          "bits": [ 18 ]
+        },
+        "RCLKE": {
+          "direction": "input",
+          "bits": [ 19 ]
+        },
+        "RE": {
+          "direction": "input",
+          "bits": [ 20 ]
+        },
+        "RADDR": {
+          "direction": "input",
+          "bits": [ 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31 ]
+        },
+        "WCLK": {
+          "direction": "input",
+          "bits": [ 32 ]
+        },
+        "WCLKE": {
+          "direction": "input",
+          "bits": [ 33 ]
+        },
+        "WE": {
+          "direction": "input",
+          "bits": [ 34 ]
+        },
+        "WADDR": {
+          "direction": "input",
+          "bits": [ 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45 ]
+        },
+        "MASK": {
+          "direction": "input",
+          "bits": [ 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61 ]
+        },
+        "WDATA": {
+          "direction": "input",
+          "bits": [ 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "MASK": {
+          "hide_name": 0,
+          "bits": [ 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:323"
+          }
+        },
+        "RADDR": {
+          "hide_name": 0,
+          "bits": [ 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:320"
+          }
+        },
+        "RCLK": {
+          "hide_name": 0,
+          "bits": [ 18 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:319"
+          }
+        },
+        "RCLKE": {
+          "hide_name": 0,
+          "bits": [ 19 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:319"
+          }
+        },
+        "RDATA": {
+          "hide_name": 0,
+          "bits": [ 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:318"
+          }
+        },
+        "RE": {
+          "hide_name": 0,
+          "bits": [ 20 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:319"
+          }
+        },
+        "WADDR": {
+          "hide_name": 0,
+          "bits": [ 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:322"
+          }
+        },
+        "WCLK": {
+          "hide_name": 0,
+          "bits": [ 32 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:321"
+          }
+        },
+        "WCLKE": {
+          "hide_name": 0,
+          "bits": [ 33 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:321"
+          }
+        },
+        "WDATA": {
+          "hide_name": 0,
+          "bits": [ 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:323"
+          }
+        },
+        "WE": {
+          "hide_name": 0,
+          "bits": [ 34 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:321"
+          }
+        }
+      }
+    },
+    "SB_RAM40_4KNR": {
+      "attributes": {
+        "blackbox": 1,
+        "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:480"
+      },
+      "ports": {
+        "RDATA": {
+          "direction": "output",
+          "bits": [ 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17 ]
+        },
+        "RCLKN": {
+          "direction": "input",
+          "bits": [ 18 ]
+        },
+        "RCLKE": {
+          "direction": "input",
+          "bits": [ 19 ]
+        },
+        "RE": {
+          "direction": "input",
+          "bits": [ 20 ]
+        },
+        "RADDR": {
+          "direction": "input",
+          "bits": [ 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31 ]
+        },
+        "WCLK": {
+          "direction": "input",
+          "bits": [ 32 ]
+        },
+        "WCLKE": {
+          "direction": "input",
+          "bits": [ 33 ]
+        },
+        "WE": {
+          "direction": "input",
+          "bits": [ 34 ]
+        },
+        "WADDR": {
+          "direction": "input",
+          "bits": [ 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45 ]
+        },
+        "MASK": {
+          "direction": "input",
+          "bits": [ 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61 ]
+        },
+        "WDATA": {
+          "direction": "input",
+          "bits": [ 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "MASK": {
+          "hide_name": 0,
+          "bits": [ 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:486"
+          }
+        },
+        "RADDR": {
+          "hide_name": 0,
+          "bits": [ 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:483"
+          }
+        },
+        "RCLKE": {
+          "hide_name": 0,
+          "bits": [ 19 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:482"
+          }
+        },
+        "RCLKN": {
+          "hide_name": 0,
+          "bits": [ 18 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:482"
+          }
+        },
+        "RDATA": {
+          "hide_name": 0,
+          "bits": [ 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:481"
+          }
+        },
+        "RE": {
+          "hide_name": 0,
+          "bits": [ 20 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:482"
+          }
+        },
+        "WADDR": {
+          "hide_name": 0,
+          "bits": [ 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:485"
+          }
+        },
+        "WCLK": {
+          "hide_name": 0,
+          "bits": [ 32 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:484"
+          }
+        },
+        "WCLKE": {
+          "hide_name": 0,
+          "bits": [ 33 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:484"
+          }
+        },
+        "WDATA": {
+          "hide_name": 0,
+          "bits": [ 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:486"
+          }
+        },
+        "WE": {
+          "hide_name": 0,
+          "bits": [ 34 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:484"
+          }
+        }
+      }
+    },
+    "SB_RAM40_4KNRNW": {
+      "attributes": {
+        "blackbox": 1,
+        "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:604"
+      },
+      "ports": {
+        "RDATA": {
+          "direction": "output",
+          "bits": [ 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17 ]
+        },
+        "RCLKN": {
+          "direction": "input",
+          "bits": [ 18 ]
+        },
+        "RCLKE": {
+          "direction": "input",
+          "bits": [ 19 ]
+        },
+        "RE": {
+          "direction": "input",
+          "bits": [ 20 ]
+        },
+        "RADDR": {
+          "direction": "input",
+          "bits": [ 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31 ]
+        },
+        "WCLKN": {
+          "direction": "input",
+          "bits": [ 32 ]
+        },
+        "WCLKE": {
+          "direction": "input",
+          "bits": [ 33 ]
+        },
+        "WE": {
+          "direction": "input",
+          "bits": [ 34 ]
+        },
+        "WADDR": {
+          "direction": "input",
+          "bits": [ 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45 ]
+        },
+        "MASK": {
+          "direction": "input",
+          "bits": [ 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61 ]
+        },
+        "WDATA": {
+          "direction": "input",
+          "bits": [ 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "MASK": {
+          "hide_name": 0,
+          "bits": [ 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:610"
+          }
+        },
+        "RADDR": {
+          "hide_name": 0,
+          "bits": [ 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:607"
+          }
+        },
+        "RCLKE": {
+          "hide_name": 0,
+          "bits": [ 19 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:606"
+          }
+        },
+        "RCLKN": {
+          "hide_name": 0,
+          "bits": [ 18 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:606"
+          }
+        },
+        "RDATA": {
+          "hide_name": 0,
+          "bits": [ 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:605"
+          }
+        },
+        "RE": {
+          "hide_name": 0,
+          "bits": [ 20 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:606"
+          }
+        },
+        "WADDR": {
+          "hide_name": 0,
+          "bits": [ 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:609"
+          }
+        },
+        "WCLKE": {
+          "hide_name": 0,
+          "bits": [ 33 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:608"
+          }
+        },
+        "WCLKN": {
+          "hide_name": 0,
+          "bits": [ 32 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:608"
+          }
+        },
+        "WDATA": {
+          "hide_name": 0,
+          "bits": [ 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:610"
+          }
+        },
+        "WE": {
+          "hide_name": 0,
+          "bits": [ 34 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:608"
+          }
+        }
+      }
+    },
+    "SB_RAM40_4KNW": {
+      "attributes": {
+        "blackbox": 1,
+        "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:542"
+      },
+      "ports": {
+        "RDATA": {
+          "direction": "output",
+          "bits": [ 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17 ]
+        },
+        "RCLK": {
+          "direction": "input",
+          "bits": [ 18 ]
+        },
+        "RCLKE": {
+          "direction": "input",
+          "bits": [ 19 ]
+        },
+        "RE": {
+          "direction": "input",
+          "bits": [ 20 ]
+        },
+        "RADDR": {
+          "direction": "input",
+          "bits": [ 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31 ]
+        },
+        "WCLKN": {
+          "direction": "input",
+          "bits": [ 32 ]
+        },
+        "WCLKE": {
+          "direction": "input",
+          "bits": [ 33 ]
+        },
+        "WE": {
+          "direction": "input",
+          "bits": [ 34 ]
+        },
+        "WADDR": {
+          "direction": "input",
+          "bits": [ 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45 ]
+        },
+        "MASK": {
+          "direction": "input",
+          "bits": [ 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61 ]
+        },
+        "WDATA": {
+          "direction": "input",
+          "bits": [ 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "MASK": {
+          "hide_name": 0,
+          "bits": [ 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:548"
+          }
+        },
+        "RADDR": {
+          "hide_name": 0,
+          "bits": [ 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:545"
+          }
+        },
+        "RCLK": {
+          "hide_name": 0,
+          "bits": [ 18 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:544"
+          }
+        },
+        "RCLKE": {
+          "hide_name": 0,
+          "bits": [ 19 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:544"
+          }
+        },
+        "RDATA": {
+          "hide_name": 0,
+          "bits": [ 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:543"
+          }
+        },
+        "RE": {
+          "hide_name": 0,
+          "bits": [ 20 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:544"
+          }
+        },
+        "WADDR": {
+          "hide_name": 0,
+          "bits": [ 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:547"
+          }
+        },
+        "WCLKE": {
+          "hide_name": 0,
+          "bits": [ 33 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:546"
+          }
+        },
+        "WCLKN": {
+          "hide_name": 0,
+          "bits": [ 32 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:546"
+          }
+        },
+        "WDATA": {
+          "hide_name": 0,
+          "bits": [ 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:548"
+          }
+        },
+        "WE": {
+          "hide_name": 0,
+          "bits": [ 34 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:546"
+          }
+        }
+      }
+    },
+    "SB_WARMBOOT": {
+      "attributes": {
+        "keep": 1,
+        "blackbox": 1,
+        "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:878"
+      },
+      "ports": {
+        "BOOT": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "S1": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "S0": {
+          "direction": "input",
+          "bits": [ 4 ]
+        }
+      },
+      "cells": {
+      },
+      "netnames": {
+        "BOOT": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:879"
+          }
+        },
+        "S0": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:881"
+          }
+        },
+        "S1": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_sim.v:880"
+          }
+        }
+      }
+    },
+    "and2": {
+      "attributes": {
+        "top": 1,
+        "src": "and2.v:3"
+      },
+      "ports": {
+        "a": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "b": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "y": {
+          "direction": "output",
+          "bits": [ 4 ]
+        }
+      },
+      "cells": {
+        "$abc$66$auto$blifparse.cc:375:parse_blif$67": {
+          "hide_name": 1,
+          "type": "SB_LUT4",
+          "parameters": {
+            "LUT_INIT": 8
+          },
+          "attributes": {
+            "src": "/usr/bin/../share/yosys/ice40/cells_map.v:43"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 2 ],
+            "I1": [ 3 ],
+            "I2": [ "0" ],
+            "I3": [ "0" ],
+            "O": [ 4 ]
+          }
+        }
+      },
+      "netnames": {
+        "a": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "and2.v:4"
+          }
+        },
+        "b": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "and2.v:5"
+          }
+        },
+        "y": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "and2.v:6"
+          }
+        }
+      }
+    }
+  }
+}

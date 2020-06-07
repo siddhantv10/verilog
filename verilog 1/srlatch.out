@@ -1,0 +1,64 @@
+#! /usr/bin/vvp
+:ivl_version "10.1 (stable)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision - 3;
+:vpi_module "system";
+:vpi_module "vhdl_sys";
+:vpi_module "v2005_math";
+:vpi_module "va_math";
+S_0x55c6bac28580 .scope module, "srlatch_tb" "srlatch_tb" 2 5;
+ .timescale -2 -3;
+v0x55c6bac48d40_0 .net "q", 0 0, L_0x55c6bac491e0;  1 drivers
+v0x55c6bac48e00_0 .net "qbar", 0 0, L_0x55c6bac493b0;  1 drivers
+v0x55c6bac48ed0_0 .var "r", 0 0;
+v0x55c6bac48fd0_0 .var "s", 0 0;
+S_0x55c6bac28700 .scope module, "uut" "srlatch" 2 9, 3 1 0, S_0x55c6bac28580;
+ .timescale -2 -3;
+    .port_info 0 /INPUT 1 "s"
+    .port_info 1 /INPUT 1 "r"
+    .port_info 2 /OUTPUT 1 "q"
+    .port_info 3 /OUTPUT 1 "qbar"
+L_0x55c6bac490a0 .functor AND 1, v0x55c6bac48ed0_0, L_0x55c6bac493b0, C4<1>, C4<1>;
+L_0x55c6bac491e0 .functor NOT 1, L_0x55c6bac490a0, C4<0>, C4<0>, C4<0>;
+L_0x55c6bac492f0 .functor AND 1, v0x55c6bac48fd0_0, L_0x55c6bac491e0, C4<1>, C4<1>;
+L_0x55c6bac493b0 .functor NOT 1, L_0x55c6bac492f0, C4<0>, C4<0>, C4<0>;
+v0x55c6bac28940_0 .net *"_s0", 0 0, L_0x55c6bac490a0;  1 drivers
+v0x55c6bac48880_0 .net *"_s4", 0 0, L_0x55c6bac492f0;  1 drivers
+v0x55c6bac48960_0 .net "q", 0 0, L_0x55c6bac491e0;  alias, 1 drivers
+v0x55c6bac48a30_0 .net "qbar", 0 0, L_0x55c6bac493b0;  alias, 1 drivers
+v0x55c6bac48af0_0 .net "r", 0 0, v0x55c6bac48ed0_0;  1 drivers
+v0x55c6bac48c00_0 .net "s", 0 0, v0x55c6bac48fd0_0;  1 drivers
+    .scope S_0x55c6bac28580;
+T_0 ;
+    %vpi_call 2 12 "$dumpfile", "srlatch.vcd" {0 0 0};
+    %vpi_call 2 13 "$dumpvars", 32'sb00000000000000000000000000000000, S_0x55c6bac28580 {0 0 0};
+    %delay 50, 0;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x55c6bac48fd0_0, 0, 1;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x55c6bac48ed0_0, 0, 1;
+    %delay 50, 0;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x55c6bac48fd0_0, 0, 1;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x55c6bac48ed0_0, 0, 1;
+    %delay 50, 0;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x55c6bac48fd0_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x55c6bac48ed0_0, 0, 1;
+    %delay 50, 0;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x55c6bac48fd0_0, 0, 1;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x55c6bac48ed0_0, 0, 1;
+    %delay 50, 0;
+    %vpi_call 2 24 "$finish" {0 0 0};
+    %end;
+    .thread T_0;
+# The file index is used to find the file name in the following table.
+:file_names 4;
+    "N/A";
+    "<interactive>";
+    "srlatch_tb.v";
+    "./srlatch.v";

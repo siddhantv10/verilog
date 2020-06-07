@@ -1,0 +1,98 @@
+$date
+	Sat May 16 18:42:40 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ms
+$end
+$scope module counter_tb $end
+$var wire 4 ! count [3:0] $end
+$var reg 1 " clk $end
+$var reg 1 # rst $end
+$scope module uut $end
+$var wire 1 " clk $end
+$var wire 1 # rst $end
+$var reg 4 $ count [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 $
+1#
+1"
+b0 !
+$end
+#40
+0"
+#80
+1"
+#120
+0"
+#160
+1"
+#200
+0"
+#240
+1"
+#250
+0#
+#280
+0"
+#320
+b1 !
+b1 $
+1"
+#360
+0"
+#400
+b10 !
+b10 $
+1"
+#440
+0"
+#480
+b11 !
+b11 $
+1"
+#500
+1#
+#520
+0"
+#560
+b0 !
+b0 $
+1"
+#600
+0"
+#640
+1"
+#680
+0"
+#720
+1"
+#750
+0#
+#760
+0"
+#800
+b1 !
+b1 $
+1"
+#840
+0"
+#880
+b10 !
+b10 $
+1"
+#920
+0"
+#960
+b11 !
+b11 $
+1"
+#1000
+0"
+1#
